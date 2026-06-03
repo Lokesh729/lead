@@ -122,6 +122,9 @@ export const webDevelopmenheaderTitles = {
 export const mobileheaderTitles = {
     title: "We are a professional Web Development & Digital Marketing Company in Bhopal."
 }
+export const websiteDevheaderTitles = {
+    title: "We are a professional Web Development & Digital Marketing Company in Bhopal."
+}
 export const emailMarketingheaderTitles = {
     title: "We are a professional Web Development & Digital Marketing Company in Bhopal."
 }
@@ -155,17 +158,14 @@ export const Whatwedodata = {
     description: [
         <>
             Leads and Brands is the best{" "}
-            <Link href="/digital-marketing" className="text-white">
-                digital marketing company
+            <Link href="/" className="text-white">
+                digital marketing company in Bhopal
             </Link>
-            & agency in Bhopal, Madhya Pradesh, India. We offer a wide range of
-            services to help your businesses grow online at affordable rates. As the
-            best digital marketing and web design agency in Bhopal, we create
-            innovative digital experiences that drive results.
+            , Madhya Pradesh, India. We offer a wide range of digital marketing services in Bhopal to help your businesses grow online at affordable rates. As the best digital marketing agency in Bhopal, we create innovative digital experiences that drive results.
         </>,
-        "Our experienced team excels in developing quality websites and user-friendly mobile applications. We specialize in SEO services, managing paid advertising campaigns, and effective social media marketing strategies. From small businesses to large enterprises, Leads and Brands meets your unique needs with top-notch internet marketing solutions in Bhopal.",
-        "At Leads and Brands, we leverage AI to deeply understand customer behavior, continuously refine ad campaigns in real-time, and craft personalized digital experiences. This strategic use of AI empowers our clients to achieve significant growth and maintain a competitive edge in their respective markets.",
-        "Regardless of your business size, Leads and Brands is ready to serve your needs. By offering innovative digital experiences."
+        "Our experienced team excels in developing quality websites and user-friendly mobile applications. We specialize in SEO services, managing paid advertising campAtaigns, and effective social media marketing strategies. From small businesses to large enterprises, Leads and Brands meets your unique needs with top-notch digital marketing services in Bhopal.",
+        "At Leads and Brands, we leverage AI to deeply understand customer behaviour, continuously refine ad campaigns in real-time, and craft personalized digital experiences. This strategic use of AI empowers our clients to achieve significant growth and maintain a competitive edge in their respective markets.",
+        "Regardless of your business size, Leads and Brands is ready to serve your needs by offering innovative digital experiences as a trusted digital marketing company in Bhopal."
     ],
     cards: [
         {
@@ -191,7 +191,7 @@ export const Whatwedodata = {
         {
             title: "SMM",
             img: service5,
-            link: "/social-media-services-bhopal"
+            link: "/social-media-marketing-company-bhopal/"
         },
         {
             title: "Content",
@@ -199,9 +199,9 @@ export const Whatwedodata = {
             link: "/content-development-services"
         },
         {
-            title: "Web Development",
+            title: "Web Design",
             img: service7,
-            link: "/web-developement-services-bhopal"
+            link: "/web-design-and-development-services-bhopal"
         },
         {
             title: "App Development",
@@ -218,6 +218,9 @@ export const Whatwedodata = {
             img: service10,
             link: "/ai-marketing-bhopal"
         }
+
+
+
     ]
 }
 
@@ -274,7 +277,7 @@ export const Allservicesdata = [
             "Leads and Brands is a top Website Designing Company in Bhopal. We can guarantee you the best cost-effective and optimised solution for your needs. We identify it as the best web developing or web designing company in Bhopal and in the business world. Being the top web development services in Bhopal, we are convinced that your website must be able to turn visitors into paying customers. That's why we review all the major points of our client's website and provide a seamless and satisfying experience.",
             "Some of the major things we considered while designing a website. - Unless Friendly - Responsive - Quicker Loading Speed - SEO Friendly - Total Responsive Setup - Best Support and Maintenance"
         ],
-        link: "/web-developement-services-bhopal"
+        link: "/web-design-and-development-services-bhopal"
     },
     {
         title: "App Development",
@@ -2276,66 +2279,151 @@ export const ppcData = {
 };
 
 export const smmData = {
-    title: "Top",
-    highlight: "Social Media Services",
-    description: [`Social Media Marketing assists your company in establishing a strong online presence in the current market. We are all aware of how much time one spends on social media platforms. Capitalizing on this advantage, Leads and Brands - a world-class social media agency in Bhopal - has created robust strategies to rebrand your company as a well-established brand on all social media platforms. Our dedicated team of experts offers best-in-class <a href="https://leadsandbrands.com/social-media-services-bhopal">social media services in Bhopal</a>, focusing on successful digital engagement.`],
+    title: "",
+    highlight: "Social Media Marketing Company and Services in Bhopal",
+    description: [`At Leads and Brands, we are a leading <strong style="color: #ff0000;"> Social Media Marketing Company in Bhopal</strong>   committed to creating your brand's strong digital presence. With the experience of the best agency. we know how the online presence is necessary for the clients success today. Our expert team designs and implements strong data-driven methods specially tailored to raise your brand awareness on all social media platforms. We provide  <a style="color: #ffffff;" href="https://leadsandbrands.com/social-media-marketing-company-bhopal">Social Media Marketing company in Bhopal</a>  and nearby areas- we build real connections with our clients by giving them what they need for their business and providing measurable results that make your business a leader in your industry.<a href="https://leadsandbrands.com/social-media-markiting-company-bhopal/"></a>`],
 
     image: {
         src: servicepageimage4,
         alt: "social media services in bhopal",
         style: "w-[300px] mx-auto"
     },
+                                                                                                                                                                        
 
-    sectionOne: {
-        title: "Advantages of Our Social Media Marketing Services",
-        features: [
-            "Improves Your Brand Perception",
-            "Reaches the Ideal Audience for Your Niche",
-            "Gain More Followers and Page Engagement",
-            "Attracts More Traffic Than Conventional Marketing"
-        ]
+
+    primarycardssection: {
+        title: " Our Complete  ",
+        highlight: "Social Media Services",
+        cards: [
+            {
+                title: "Facebook",
+                description:
+                    "Facebook is where you realtives,your college mates, use for social gathering online using video calls or chat messanger or many different things.",
+            },
+            {
+                title: "Instagram",
+                description:
+                    "instagram is everyone's own flawless visual journal, where brunch always appears increadible and sunsets are perpetually perfect.",
+
+            },
+            {
+                title: "Linkedin",
+                description:
+                    " Linkedin is the networking cocktail party that never stops, where everybody's resume on the site is just a little bit more lustrous that it actually is.",
+
+            },
+            {
+                title: "Twitter (X)",
+                description:
+                    " Twitter (X) is the worldwide group chat that's going a million miles an hour, where hot takes come to live or die in a flash.",
+
+            },
+            {
+                title: "TikTok",
+                description:
+                    "Tiktok is the ridiculous,funny,and completely insane whirlpool of short clips you fall into, and before you know it, two hours have vanished.",
+
+            },
+            {
+                title: "Spotify",
+                description:
+                    " Spotify is your very own,mood-mathed DJ who knows you need a cry session with Lorde as much as a pump-up workout mix.",
+
+            },
+        ],
+    },
+
+    
+     keywordssection: {
+        title: "Professional",
+        highlight: "Social media Tools We Use",
+        description: "We leverage industry-leading tools for various Social media analysis, management and scheduling:",
+        keywords: [
+            "Buffer",
+            "Hootsuite",
+            "Sprout Social",
+            "Later",
+            "Confe.io",
+            
+        ],
+
+    },
+
+
+    advantagessection: {
+        title: "Advantages of ",
+        highlight: "Leads and Brands",
+        description: "Our social media marketing agency provides organic content creation, publication and ongoing maintenance. We keep your brand active on every platform,encourage community interaction, and drive organic traffic to your website:",
+        benefitcards: [
+            {
+                title: "Social Media Strategies",
+                description:
+                    "Our experts develop strategic plans to address your business needs. We discover target audience, select best-fit platforms, establish KPIs, develop content calendars, and add analytics for ongoing optimization.it's smart, structured,and tailored. ",
+                icon: <IoMdArrowDropright />,
+            },
+            {
+                title: "Social Media Optimization (SMO)",
+                description:
+                    "We enhance your profile with appropriate information, keywords, and consistent activity. Posting at the optimal time,using live videos, stories, and polls boosts engagement and visibility on the online space.",
+                icon: <IoMdArrowDropright />,
+            },
+            {
+                title: "Paid Social Media Promotions",
+                description:
+                    "Our social media markiting in Bhopal also comprises paid promotions through mediums like Facebook, Instagram, LinkedIn, and Twitter. Using graphics, carousels, reels, and videos, we boost your brand visibility and optimize coversion potential",
+                icon: <IoMdArrowDropright />,
+            },
+            {
+                title: "Social media performance Markiting",
+                description:
+                    "We scale your brand with data-based social media marketing in Bhopal. We drive performance and conversions through analytics, A/B testing, and engaging formats to deliver.",
+                icon: <IoMdArrowDropright />,
+            },
+            {
+                title: "Social Influencer Marketing",
+                description:
+                    "Brand credibility receives a lift through influencer collaborations. We select the ideal influencers, build harmony between your product and their voice, and build sponsored content that resonates truthfully with their audience.",
+                icon: <IoMdArrowDropright />,
+            },
+            {
+                title: "Organic Social Management",
+                description:
+                    "Our social media marketing agency provides organic content creation,publication, and ongoing maintenance. We keep your brand active on every platform,encourage community interaction,and drive organic traffic to your website.",
+                icon: <IoMdArrowDropright />,
+            },
+        
+        ],
+
+    },
+
+
+     ctasection: {
+        title: "Why Choose ",
+        highlight: "LeadsandBrands Bhopal for Social Media?",
+        description: [`LeadsandBrands is a responsible and credible social media agency in Bhopal. Our talented team develops strong online strategies and creates compelling content to build your brand's powerful online footprint. Being the highest-rated social media compony in Bhopal, we offer tailored social media management solutions to meet your unique business objectives. We specilize in crafting data-driven campaign that are not just engaging but also drive meaningful interactions,conversions, and community growth. By reporting transparently, you'll always know the progress of your campaigns and see the ROI on your investment. We pride ourselves on providing affordable, high quality social media services in Bhopal that fit your budget and generate real resuls- increased brand awareness,qualified leads, and sales.`, ` <span style='color:red'>LeadsandBrands</span> is the solution to your digital needs. Let us assist your business in growing online-react out to us today for a consultation.`]
     },
 
     sectionTwo: {
-        title: "How Our Social Media Company in Bhopal Can Help You",
+        title: "Areas We ",
+        highlight: "Serve in Bhopal",
+        description: ["As the leading social media agency in Bhopal, Leads & Brands provides top-tier social media services in Bhopal to businesses across the city. Our social media company in Bhopal specializes in crafting hyper-localized campaigns for key commerical hubs including MP Nagar, Arera Colony, Shahpura, New Market, Habibganj, Bairagarh, Kolar, and Ayodhya Nagar.", "We serve businesses throughout Bhopal, from startups in Hoshangabad Road to established brands near DB Mall. Our expertise extends to healthcare providers in Peer Gate or Gulmohar, educational institutes in Chuna Bhatti, retail shops in 10 No. Market, and real estate developers in Bawadia Kalan."],
         features: [
-            "Expert Social Media Page Management",
-            "Targeted Facebook Ads",
-            "Strategic Instagram Campaigns",
-            "Organic Growth of Followers and Likes"
+            "MP Nagar",
+            "Arera Colony",
+            "Shahpura",
+            "New Market",
+            "Bairagarh",
+            "Kolar",
+            "Ayodhya Nagar",
+            "Hoshangabad Road",
+            "Gulmohar",
+            "Bawadia Kalan",
         ],
-        conclusion: `As the top social media company in Bhopal, we develop tailored strategies to help you gain maximum online presence and business growth.`
+        conclusion: "Our strength is in providing high-end creatives and compelling content development- the core of any successful social media strategy across all digital platforms."
     },
-    sectionfour: {
-        title: "Social Media",
-        highlight: " Approach",
-        features: [
-            {
-                icon: <FaFacebook />,
-                title: "Facebook Marketing",
-                description:
-                    "For your business in Bhopal, we create Facebook campaigns that are crafted to generate more engagement and conversions. Conversion-boosting placements for ads, engaging content creation, and precise audience targeting are some of our strategies.",
-            },
-            {
-                icon: <FaInstagramSquare />,
-                title: "Instagram Growth",
-                description:
-                    "Our Instagram experts help Bhopal businesses build attention-grabbing accounts that attract real followers. Our expertise includes campaign stories, influencer collaborations, and sales-increasing shoppable posts.",
-            },
-            {
-                icon: <FaLinkedin />,
-                title: "LinkedIn Networking",
-                description:
-                    "In order to rank highly in search results and keep viewers interested for longer, our video marketing experts assist Bhopal businesses in producing captivating YouTube videos with unique titles, descriptions, and tags.",
-            },
-            {
-                icon: <IoLogoYoutube />,
-                title: "YouTube Visibility",
-                description:
-                    "Our video marketing specialists help Bhopal businesses create engaging YouTube content that ranks in search results and keeps viewers watching longer with optimized titles, descriptions, and tags.",
-            },
-        ],
-    },
+
+
+
 
     sectionfive: {
         title: "Social Media",
@@ -2381,11 +2469,6 @@ export const smmData = {
                 question: "Do you work on both organic growth and paid advertising?",
                 answer:
                     "Yes, we work on both by combine organic content (engagement, stories, posts) with paid ads for a balanced approach. This combined both approach delivers sustainable growth and leverages ads to deliver instant visibility. As one of the leading social media agencies in Bhopal, we calibrate both for highest ROI.",
-            },
-            {
-                question: "How do I start using your social media services?",
-                answer:
-                    "Simply reach out to us via contact form or phone. We’ll discuss your goals, analyze your current presence, and create a plan according to your brand. Let’s grow your business together!",
             },
 
         ]
@@ -2444,21 +2527,21 @@ export const contentWritingData = {
 };
 
 export const webDevelopmentData = {
-    title: "Website Design & Development",
-    highlight: "Services in Bhopal",
+    title: "Website Design",
+    highlight: "& Development Services in Bhopal",
     description: [
-        `Leads and Brands is a renowned <b style="color:white;">website design and development company in Bhopal</b>. We focus on our clients' vision and requirements, providing fully custom <b style="color:white;">web design services in Bhopal</b>. Our expert team delivers responsive, mobile-friendly, and SEO-optimized websites. From concept to launch, we transform your ideas into a fully functional online presence.`
+        `Leads and Brands is a renowned <b style="color:white;">web design company in Bhopal</b>. We focus on our clients' vision and requirements, providing fully custom <b style="color:white;">website design services in Bhopal</b>. Our expert team delivers responsive, mobile-friendly, and SEO-optimized websites. From concept to launch, we transform your ideas into a fully functional online presence. we provide an intuitive user experience that connects with your audience and converts. Our extensive process features continuous support and maintenance to secure and update your website.Leave it to us to create a robust digital property that boosts your brand and produces tangible results.`
     ],
 
     image: {
         src: servicepageimage6,
-        alt: "Web Development Company in Bhopal",
+        alt: "Web Design Services in Bhopal",
         style: "w-[350px] pt-12 mx-auto"
     },
 
     sectionOne: {
         title: "Leads and Brands – Top Website Designing Company in Bhopal",
-        description: `We provide cost-effective, optimized, and high-quality solutions tailored to your needs. Recognized as a leading web designing company in Bhopal, we ensure your website converts visitors into paying customers. Every aspect of your site is carefully reviewed to deliver a seamless and engaging experience.`
+        description: `We provide cost-effective, optimized, and high-quality solutions tailored to your needs. Recognized as a leading web designing company in bhopal, we ensure your website converts visitors into paying customers. Every aspect of your site is carefully reviewed to deliver a seamless and engaging experience.`
     },
 
     sectionTwo: {
@@ -2473,14 +2556,168 @@ export const webDevelopmentData = {
         ]
     },
 
+
+
+    primarycardssection: {
+        title: " Our Complete  ",
+        highlight: "Web Design and Development Services",
+        cards: [
+            {
+                title: "Brand-Centric Design",
+                description:
+                    "We bring your vision to life in a visual work of art. Our designs weave the narrative of your brand,creating a lasting online impression that resonates richly and forms lasting loyalty.",
+
+            },
+            {
+                title: "Interactive Websites",
+                description:
+                    "We design interactive websites that focus on client niches and product-based interactive features",
+
+            },
+            {
+                title: "E-commerce Website",
+                description:
+                    "We transform your offline store to an online store using and e-commerce website with beautiful features,products,and add-to-cart and payment integration",
+
+            },
+            {
+                title: "Intuitive by Design",
+                description:
+                    "we are fanatical about the user experience. Our products focus on simplicity and clarity, building a seamless and enjoyable journey that feels easy from the initial click to the ultimate conversion.",
+
+            },
+            {
+                title: "SEO & Digital Marketing",
+                description:
+                    "We use SEO tactics from scratch when building and designing a website so that your business can be found on various search engines.",
+
+            },
+            {
+                title: "UI/UX Design",
+                description:
+                    "We design websites that look fantastic,clean, and beautiful so that they are easy to understand and users can easily navigate.",
+
+            },
+        ],
+    },
+
+
+    keywordssection: {
+        title: "Professional",
+        highlight: "Web Design Tools We Use",
+        description: "We use various web design tools that are used on a daily basis in the website design process:",
+        keywords: [
+            "Figma",
+            "Adobe XD",
+            "Adobe Photoshop",
+            "Adobe ILLustrator",
+            "Axur RP",
+            "Balasamiq",
+            "Canva",
+            "Sketch",
+        ],
+
+    },
+        
+    advantagessection: {
+        title: "Advantages of ",
+        highlight: "Leads and Brands",
+        description: " We leverage industry-leading tools for keyword research, technical audits, and comprehensive SEO analysis:",
+        benefitcards: [
+            {
+                title: "Local Bhopal Expertise",
+                description:
+                    "we are not only developers but your locals too. we build website based on local business in Bhopal that focuses local clients.",
+                icon: <IoMdArrowDropright />,
+            },
+            {
+                title: "Custom & Scalable Solutions",
+                description:
+                    "Your business is one-of-a-kind. We create sites from scratch,designed to meet your unique requirements,Our code is scalable and clean,so your site can expand seamlessly with your business goals.",
+                icon: <IoMdArrowDropright />,
+            },
+            {
+                title: "SEO-Optimized Development",
+                description:
+                    "We design with visibility in mind. Each website is built upon a platform of foundation SEO best practices (Semantic HTML,Speed,Mobile-Fist) to make you appear higher on Google and get discovered by more customers in Bhopal and the world.",
+                icon: <IoMdArrowDropright />,
+            },
+            {
+                title: "Lightning-Fast Performance",
+                description:
+                    "A slow websites loses customers. We focused on optimize code,HTML/Gzip compresion, JavaScript nad CSS minify for fast loading speed and performance.",
+                icon: <IoMdArrowDropright />,
+            },
+            {
+                title: "Mobile-First Responsive Design",
+                description:
+                    "Since most population used mobile phones so we build websites which is mobile,tablets and desktops responsive from scratch.",
+                icon: <IoMdArrowDropright />,
+            },
+            {
+                title: "Long-Term Support & Maintenance",
+                description:
+                    "Our relationship does not stop at launch. We provide trustworthly long-term support and maintenance options to secure your site, keep it updated, and keep it running at optimum levels, so you can have absolute peace of mind.",
+                icon: <IoMdArrowDropright />,
+            },
+            {
+                title: "Clear & Transparent Communication",
+                description:
+                    "No techno-speak, no surprises. We prefer regular end-to-end communication with client so that web design process is going according to client requirements.",
+                icon: <IoMdArrowDropright />,
+            },
+            {
+                title: "User Experience",
+                description:
+                    "(UX) Focus we design websites from humans. Our design process involves building website based on user navigation that can easily to understand and navigate.",
+                icon: <IoMdArrowDropright />,
+            },
+            {
+                title: "Result-Driven Process",
+                description:
+                    "Our end objectives is your sucess. We do not simply provide a site; we provide a potent web asset that can drive leads,enhance your brand, and help you reach your particular business goals.",
+                icon: <IoMdArrowDropright />,
+            },
+        ],
+
+    },
+    
+    ctasection: {
+        title: "Why Choose ",
+        highlight: "LeadsandBrands Bhopal for Web Design?",
+        description: [`Leads & Brands is a responsible and credible web design firm in Bhopal. Our talented team creates beautiful,functional websites and develops strong online strategies to make your brand's online footprint. Being the highest-rated web design company in Bhopal, we offer tailored web design solutions to meet your unique business objectives. Our website development agency in bhopal building easy-to-use, mobile-friendly websites that are not just aesthetically pleasing but also drive engagement and conversions. By reporting transparently, you'll always know the progress of your project. We pride ourselves on providing affordable,high-quality website development services in bhopal that fit your budget and generate real results-traffic,leads and sales.<a href="/seo-company-bhopal"> </a> <span style='color:red'>Leads and Brands</span> is the solution to your digital needs. Let us assist your business in growing online-reach out to us today for a consultation!`]
+    },
+
+
+    sectionTwo: {
+        title: "Areas We ",
+        highlight: "Serve in Bhopal",
+        description: ["As the leading web development agency in bhopal, Leads & Brands provides top-tier website design services to business across the city. Our web design agency in Bhopal. Specializes in creating stunning,functional websites for businesses in key commercial hubs, including MP Nagar,Arera Colony,Shahpura,New Market,Habibganj,Bairagarh, Kolar, and Ayodhya Nagar.", "We serve businesses throughout Bhopal, from startups in Hoshangabad Road to established brands near DB Mall. Our expertise extends to healthcare providers in Peer Gate or Gulmohar, educational institutes in Chuna Bhatti, retail shops in 10 No. Market, and real estate developers in Bawadia Kalan."],
+        features: [
+            "MP Nagar",
+            "Arera Colony",
+            "Shahpura",
+            "New Market",
+            "Bairagarh",
+            "Kolar",
+            "Ayodhya Nagar",
+            "Hoshangabad Road",
+            "Gulmohar",
+            "Bawadia Kalan",
+        ],
+        conclusion: "Our strength is in providing high-end creatives and compelling content development across all digital platforms."
+    },
+
+
+
     faqsection: {
         title: "Frequently ",
         highlight: "Asked Questions",
         faqs: [
             {
-                question: "What type of website development services does your company offer?",
+                question: "What type of website design services does your company offer?",
                 answer:
-                    "We offer services as varied as simple brochure websites to full-scale e-commerce sites and tailored web applications. We take care of everything from design and development to hosting setup and upkeep.",
+                    "We offer services as varied as simple brochure websites to full-scale e-commerce sites and tailored web applications. We take care of everything from design to hosting setup and upkeep.",
             },
             {
                 question: "How do you create websites for Bhopal customers?",
@@ -2493,7 +2730,7 @@ export const webDevelopmentData = {
                     "We are experts in Facebook, Instagram, LinkedIn, X, YouTube, and Pinterest. Our experts develop all platform tactics to build engagement and conversions, so your business can be reached and seen by the ideal users.",
             },
             {
-                question: "Why is your website design agency in Bhopal different from other agencies?",
+                question: "Why is your website design agency is  different from other agencies?",
                 answer:
                     "We are different from most agencies in that we marry technical precision with strategic clarity to your business goals. Our combination of technical know-how and marketing savvy makes us different.",
             },
@@ -2526,7 +2763,33 @@ export const mobileAppData = {
     sectionOne: {
         description: `We at Leads and Brands have a team of experienced professionals with 5+ years of experience in mobile app development services in Bhopal. Being one of the most reliable mobile app development companies in Bhopal, we ensure timely and budget-friendly projects. Mobile app development is not just an affordable option but also a popular choice to drive engagement and reach.`
     }
+
+    
 };
+
+export const websiteDevelopmentData = {
+    title: "Web Development",
+    highlight: "Company in Bhopal",
+    description: [
+        `Search for the best Web Development company in Bhopal? Leads&Brands extensive Web Development agency in Bhopal are aimed at providing strong, effective online solutions. Being one of the best web development agency in Bhopal, we cater to crafting one-of-a-kind websites that not only are visually appealing but also perform well and offer great user experience, making your business a hit in the online world.Today's digital-first economy makes your website the central part of your business. It is no longer a digital brochure; it's a robust app, a 24/7 sales machine, and the basis of your online presence. If your current website is not working as you want and is insecure then you are losing your money and customers also by decreasing the online presence.`
+    ],
+
+    image: {
+        src: servicepageimage7,
+        alt: "Mobile App Development Services in Bhopal",
+        style: "w-[337px] mx-auto"
+    },
+
+    sectionOne: {
+        description: `Our web development company in Bhopal is top and leading agency in designing high performance, reliable and secure website that align within your business requirements and engage in digital solutions that server you well.`
+    }
+};
+
+
+
+
+
+
 
 export const emailMarketingdata = {
     title: "Email",

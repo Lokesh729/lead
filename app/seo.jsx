@@ -508,6 +508,92 @@ export const mobileAppPageSEO = {
   }
 };
 
+
+export const websiteDevelopmentPageSEO = {
+  title: "Best Web Development Company in Bhopal | Custom Web Development",
+  description: "Need a trustworthy web development company in Bhopal? We create fast,secure, and scalable custom websites & web applications to boost your business online.",
+  keywords: [
+    "Digital Marketing Company in Bhopal",
+    "Digital Marketing Agency Bhopal",
+    "SEO Services Bhopal",
+    "PPC Company in Bhopal",
+    "Social Media Marketing Bhopal",
+  ],
+  alternates: {
+    canonical: "https://leadsandbrands.com/digital-marketing-services-bhopal",
+  },
+  openGraph: {
+    title:
+      "Digital Marketing Services in Bhopal | Digital Marketing Company & Agency in Bhopal",
+    description:
+      "Want to hire the best digital marketing company in Bhopal? Leads & Brands provides the best digital marketing services in Bhopal, ranging from SEO, PPC, social media & more. Grow your business with our professional digital marketing agency in Bhopal today!",
+    url: "https://leadsandbrands.com/digital-marketing-services-bhopal",
+    siteName: "Leads & Brands",
+    images: [
+      {
+        url: "https://leadsandbrands.com/assets/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Digital Marketing Services in Bhopal - Leads & Brands",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Digital Marketing Services in Bhopal | Digital Marketing Company & Agency in Bhopal",
+    description:
+      "Want to hire the best digital marketing company in Bhopal? Leads & Brands provides the best digital marketing services in Bhopal, ranging from SEO, PPC, social media & more. Grow your business with our professional digital marketing agency in Bhopal today!",
+    creator: "@leadsandbrands",
+    images: ["https://leadsandbrands.com/assets/twitter-image.jpg"],
+  },
+   Scheme: {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Leads & Brands",
+    "url": "https://leadsandbrands.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://leadsandbrands.com/public/images/l&b.png",
+      "width": "315",
+      "height": "auto"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Opp. South Avenue, G3, Gulmohar, Bhopal. 462039",
+      "addressLocality": "Bhopal",
+      "addressRegion": "Madhya Pradesh",
+      "postalCode": "462039",
+      "addressCountry": "IN"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+917974777707",
+      "contactType": "sales",
+      "email": "info@leadsandbrands.com",
+      "areaServed": "IN"
+    },
+    "sameAs": [
+      "https://www.facebook.com/Leads-And-Brands-105606992025898",
+      "https://www.instagram.com/leadsandbrands/",
+      "https://twitter.com/LeadsAndBrands",
+      "https://www.linkedin.com/company/leads-and-brands"
+    ]
+  }
+};
+
+
+
+
+
+
+
+
+
+
+
 export const ContentDevelopmentPageSEO = {
   title: "Content Development Services in Bhopal | Content Development Company & Agency in Bhopal",
   description: "Want to hire the best content development company in Bhopal? Leads & Brands provides the best content development services in Bhopal, ranging from copywriting, blogging, social media content & more. Grow your business with our professional content development agency in Bhopal today!",
@@ -886,8 +972,8 @@ export const seoPageSEO = {
 };
 
 export const smmPageSEO = {
-  title: "Social Media Services in Bhopal | SMM Services Agency in Bhopal",
-  description: "Maximize your brand with the finest social media agency in Bhopal! Leads & Brands provides professional social media marketing services in Bhopal, such as Facebook, Instagram, LinkedIn & YouTube marketing. Increase engagement & sales with our reliable social media agency in Bhopal!",
+  title: "Social Media Marketing Company & Services in Bhopal",
+  description: "Looking for a top-rated social media marketing agency in Bhopal? Leads & Brands, a premier social media marketing company delivers strategic campaigns to boost your delivers strategic campaigns to boost your engagement & growth. Get a free consultation with our expert team today!",
   keywords: [
     "Social Media Marketing Company in Bhopal", "Social media marketing ", "SMM", "facebook marketing", "instagram marketing ", " facebook ads", " instagram ads"],
   alternates: {
@@ -977,8 +1063,8 @@ export const smmPageSEO = {
 };
 
 export const webDevelopmentPageSEO = {
-  title: "Website Design & Development Services in Bhopal | Leads & Brands",
-  description: "Looking for top-rated website design & development in Bhopal? Leads & Brands delivers custom, mobile-friendly websites & e-commerce solutions. Get a free consultation with our expert team today!",
+  title: "Web Design Company & Services in Bhopal",
+  description: "Looking for top-rated website design & development company in Bhopal? Leads & Brands, a premier web design agency, delivers custom, mobile-friendly websites & e-commerce solutions. Get a free consultation with our expert team today!",
   keywords: ["website development company in bhopal", " web development services in bhopal", "website design company in bhopal", "ecommerce website development in bhopal", "custom website development in bhopal", "responsive web design in bhopal", "best web development company in bhopal", "top web development agency in bhopal"],
   alternates: {
     canonical: "https://leadsandbrands.com/digital-marketing-services-bhopal",

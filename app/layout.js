@@ -1,6 +1,9 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import { Raleway } from 'next/font/google';
 import Footer from "./components/Footer/Footer";
+import Header from "./components/header/Header";
+
+import Navbar from "./components/navbar/Navbar";
 import Socillinks from "./components/sociallinks/Socillinks";
 import "./globals.css";
 
@@ -29,16 +32,30 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} ${raleway.variable} antialiased`}
-        suppressHydrationWarning
-      >
-        {children}
-        <Footer />
-        <div className="md:block hidden">
-          <Socillinks />
-        </div>
-      </body>
+    <body
+  className={`${geistSans.variable} ${geistMono.variable} ${raleway.variable} antialiased`}
+  suppressHydrationWarning
+>
+
+  <div className="fixed top-0 left-0 w-full z-50">
+
+    <Header />
+
+    <Navbar />
+
+  </div>
+
+  {children}
+
+  <Footer />
+
+  <div className="md:block hidden">
+
+    <Socillinks />
+
+  </div>
+
+</body>
     </html>
   );
 }

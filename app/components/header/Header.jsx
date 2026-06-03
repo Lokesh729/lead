@@ -1,6 +1,6 @@
 import Marquee from "react-fast-marquee"; 
 
-export default function Header({ data }) {
+export default function Header({ data={} }) {
   const title = data.title || "We are a professional Web Development & Digital Marketing Company in Bhopal.";
 
   return (

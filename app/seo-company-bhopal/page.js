@@ -8,7 +8,6 @@ import Cardssection from "../components/servicescomponents/Cardssection";
 import FAQSection from "../components/servicescomponents/Faqsection";
 import Link from "next/link";
 
-
 import { seoMarketingTitles, seoMarketingData } from "../data.jsx";
 import { seoPageSEO } from "../seo";
 import Cardsectiontwo from "../components/servicescomponents/Cardsectiontwo";
@@ -40,6 +39,8 @@ export default function index() {
         </div>
       </section>
 
+
+
       {/* Dynamic Sections */}
       <section className="max-w-6xl mx-auto px-4 pb-10">
 
@@ -52,6 +53,9 @@ export default function index() {
           />
         )}
       </section>
+
+
+      
 
       {/* keywords */}
       <section className="max-w-6xl mx-auto px-4 pb-10">
