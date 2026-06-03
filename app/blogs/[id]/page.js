@@ -2,7 +2,7 @@ async function getBlog(id) {
 
     const res = await fetch(
   
-      `http://localhost:3000/api/blogs/${id}`,
+       `${process.env.NEXT_PUBLIC_SITE_URL}/api/blogs/${id}`,
   
       {
         cache: "no-store",
@@ -16,20 +16,12 @@ async function getBlog(id) {
   
   // RELATED BLOGS
   async function getBlogs() {
-  
-    const res = await fetch(
-  
-      "http://localhost:3000/api/blogs",
-  
-      {
-        cache: "no-store",
-      }
-  
-    );
+    const res = await fetch(`${process.env.NEXT_PUBLIC_SITE_URL}/api/blogs`, {
+      cache: "no-store",
+    });
   
     return res.json();
   }
-  
   
   export default async function SingleBlogPage({
   

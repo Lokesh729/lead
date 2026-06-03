@@ -1,7 +1,6 @@
 async function getBlogs() {
-
   const res = await fetch(
-    "http://localhost:3000/api/blogs",
+    `${process.env.NEXT_PUBLIC_SITE_URL}/api/blogs`,
     {
       cache: "no-store",
     }
@@ -9,7 +8,6 @@ async function getBlogs() {
 
   return res.json();
 }
-
 export default async function BlogsPage() {
 
   const blogs = await getBlogs();
