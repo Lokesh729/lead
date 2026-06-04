@@ -26,7 +26,7 @@ export default async function BlogsPage() {
         {blogs.map((blog) => (
 
 <div
-key={blog._id}
+key={blog.slug}
 className="bg-[#111] rounded-xl overflow-hidden shadow-lg border border-gray-800 
 w-[350px] h-[400px] transition-all duration-500 hover:-translate-y-3"
 >
@@ -62,7 +62,7 @@ w-[350px] h-[400px] transition-all duration-500 hover:-translate-y-3"
 
               {/* BUTTON */}
               <a
-                href={`/blogs/${blog._id}`}
+              href={`/blogs/${blog.slug}`}
                 className="block text-center bg-[#1a1a1a] hover:bg-[#222] transition-all duration-300 text-white py-4 rounded-lg"
               >
                 Read More →
