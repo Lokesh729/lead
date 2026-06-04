@@ -31,10 +31,14 @@ async function getBlog(id) {
   
     const id =
       params.id;
-  
+    
+    
     const blog =
       await getBlog(id);
-  
+      console.log("BLOG DATA:", blog);
+      if (!blog) {
+        notFound();
+      }
     const blogs =
       await getBlogs();
   
